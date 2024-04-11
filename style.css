@@ -1,59 +1,77 @@
 body {
-    background-color: #e4e3e3;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
 }
-
-.logo {
-    display: flex;
-    justify-content: center;
-}
-
-.general {
-    max-height: 800px;
-    max-width: 350px;
+.container {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
+    background-color: #fff;
+    border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
-
-p{
-    font-size: 0.8rem;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
-    font-family: Arial, sans-serif;
-}
-
-
-.boton-google, .boton-apple {
-    border: 1px solid rgb(203, 201, 201);
-    padding: 10px 20px;
-    font-size: 14px;
-    cursor: pointer;
-    background-color: white;
-    color: black;
+button {
     width: 100%;
-    font-family: Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    border-radius: 4px;
+    padding: 10px;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.contra{
+    text-align: center;
+    margin-top: 10px;
 }
 
-.boton-apple:hover, .boton-google:hover{
-    background-color: rgb(224, 224, 224);
+.contra a{
+    color: #040000;
+    text-decoration: none;
 }
 
-.line-container {
+.register-link a{
+    text-decoration: none;
+    color: #2b2fa1; 
+    font-weight: 600; 
+
+}
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+.face{
+    text-align: center;
+}
+
+.face a{
+  color: #2b2fa1;  
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: 600; 
+}
+ .descarga{
+    margin-top: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+ }
+
+ h1, p{
+    font-size: 14px;
+    text-align: center;
+ }
+
+ .line-container {
     display: flex;
     align-items: center;
 }
@@ -61,58 +79,48 @@ label {
     flex-grow: 1;
     border-top: 0.8px solid black;
     margin: 0 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .zero {
     font-weight: bold;
     color: black;
 }
 
-input[type="tel"],
-input[type="password"] {
-    width: 95%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.captcha{
-    border: 1px solid rgb(203, 201, 201);
-    padding: 10px 20px;
-    font-size: 14px;
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    width: 90%;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 4px;
-}
-input[type="checkbox"] {
-    transform: scale(1.5); 
-}
-
-button[type="submit"] {
-    width: 100%;
-    height: 30px;
-    align-items: center;
-    background-color: #4dd5f4;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover{
-    background-color: #0697c4;
-}
- .face a{
+a{
     text-decoration: none;
-    color: #061cc4c4;
-    font-family: Arial, sans-serif;
+    color: #040000;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
- }
+}
+.crear a{
+    text-decoration: none;
+    color: #040000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.inicio:hover{
+    background-color: #949191;
+}
+.regi h1{
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.regi p{
+    color: #a09e9e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: #0074D9;
+}
